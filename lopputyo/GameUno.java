@@ -178,7 +178,7 @@ public class GameUno {
             System.out.println("Player 2, input number that matches the card you want to play!");
             for (int i = 0; i < getDeck.player2Hand.size(); i++) {
                 int x = i + 1;
-                System.out.print(x + ": " +getDeck.player1Hand.get(i)+ " | ");
+                System.out.print(x + ": " +getDeck.player2Hand.get(i)+ " | ");
                 if (i % 2 != 0) {
                     System.out.print("\n");
                 }
